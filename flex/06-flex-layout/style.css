@@ -5,7 +5,52 @@ body {
   margin: 0;
   overflow: hidden;
   font-family: Roboto, sans-serif;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-between;
 }
+
+.header,
+.footer {
+  display: flex;
+  justify-content: space-between;
+
+  padding: 15px;
+}
+
+.footer {
+  background: #eeeeee;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 10px;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.content {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  gap: 8px;
+}
+
+img {
+  display: block;
+}
+
+button {
+  padding: 10px;
+}
+
+
+
 
 img {
   width: 600px;
